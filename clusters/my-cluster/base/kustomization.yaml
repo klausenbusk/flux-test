@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- cilium-release.yaml
+- cilium-repository.yaml
+- podinfo-release.yaml
+- podinfo-repository.yaml
+- flux-system
